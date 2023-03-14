@@ -1,5 +1,4 @@
 function scuberGreetingForFeet(feetParameter){
-  // Write your code here!
   if (feetParameter < 0){
     throw new Error("Feet must be a positive number");
   }
@@ -19,13 +18,11 @@ function scuberGreetingForFeet(feetParameter){
 
 
 function ternaryCheckCity(cityParameter){
-  // Write your code here!
   return (cityParameter === "NYC") ? "Ok, sounds good." : "No go.";
 }
 
 
 function switchOnCharmFromTip(tipParameter){
-  // Write your code here!
   switch (tipParameter){
     case "generous":
       return "Thank you so much.";
